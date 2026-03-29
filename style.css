@@ -1,0 +1,27 @@
+/* Estilo para la sección de Proyectos */
+#proyectos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.proyecto-card {
+    background-color: #e0e0e0;
+    border: 2px dashed #999;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.proyecto-card:hover {
+    transform: scale(1.05);
+}
